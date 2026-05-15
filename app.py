@@ -105,7 +105,7 @@ def compute_subject(subj):
 # ── routes ────────────────────────────────────────────────────────────────────
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("api\templates\index.html")
 
 
 @app.route("/extract", methods=["POST"])
