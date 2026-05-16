@@ -149,7 +149,7 @@ Each element:
 
     try:
         resp = client.chat.completions.create(
-            model="llama-3.2-11b-vision-preview",
+            model="llama-3.3-70b-versatile",
             messages=[{
                 "role": "user",
                 "content": [
